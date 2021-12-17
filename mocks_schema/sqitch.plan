@@ -1,0 +1,7 @@
+%syntax-version=1.0.0
+%project=mocks
+
+
+schemas/main 2021-12-17T18:53:08Z BryanGK <bryan@button.is> # Creating schema for mocked functions
+functions/now [schemas/main] 2021-12-17T18:53:08Z BryanGK <bryan@button.is> # Mock function to override the default now() behaviour
+functions/set_mocked_time_in_transaction [functions/now] 2021-12-17T18:53:08Z BryanGK <bryan@button.is> # Function to set the proper configuration to use the mocked now() function. Only impacts the current transaction.
