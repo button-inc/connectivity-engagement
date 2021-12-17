@@ -1,0 +1,6 @@
+{
+  "eslint.workingDirectories": [
+      "./folder_name_1",
+      "./folder_name_2",
+  ]
+}
