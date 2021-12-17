@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+Footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
